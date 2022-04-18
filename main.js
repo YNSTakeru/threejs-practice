@@ -40,6 +40,9 @@ const textures = [
     "https://ynstakeru.github.io/img/ramen-file-mapper-image.png"
   ),
   textureLoader.load("https://ynstakeru.github.io/img/seat_change_img.png"),
+  textureLoader.load(
+    "https://ynstakeru.github.io/img/ramen-file-mapper-image.png"
+  ),
 ];
 
 // マテリアル
@@ -69,7 +72,7 @@ const mesh3 = new THREE.Mesh(
   materials[2]
 );
 const mesh4 = new THREE.Mesh(
-  new THREE.PlaneGeometry(1, 2, 16, 16),
+  new THREE.PlaneGeometry(2, 2, 16, 16),
   materials[3]
 );
 
